@@ -1,0 +1,26 @@
+.chat_Box {
+  height: 650px;
+  width: 650px;
+  border: 1px solid red;
+  position: relative;
+}
+.inputBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 10px;
+  width: 100% !important;
+}
+.inputBar input {
+  font-size: 20px;
+  padding: 10px;
+  width: 100% !important;
+  outline: none !important;
+  border: none !important;
+}
+.message{
+    background-color: steelblue;
+    color: white;
+    width: auto;
+    padding:5px 10px  !important;
+}
